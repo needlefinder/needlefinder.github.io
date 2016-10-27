@@ -17,19 +17,19 @@
   g: 1
 
 - name: Dr. Maria Spadea
-  position: ImagenLab
+  position: ImagEngLab
   image: maria_spadea.jpg
   link: http://www.imagenglab.com/newsite/mf_spadea/
   g: 2
 
 - name: Dr. Paolo Zaffino
-  position: ImagenLab
+  position: ImagEngLab
   image: paolo_zaffino.jpg
   link: http://www.imagenglab.com/newsite/paolo_zaffino/
   g: 2
 
 - name: Salvatore Scaramuzzino
-  position: ImagenLab
+  position: ImagEngLab
   image: salvatorre_scaramuzzino.jpg
   link: http://www.imagenglab.com/newsite/salvatore_scaramuzzino/
   g: 2
