@@ -1,0 +1,51 @@
+---
+- name: Dr. Tina Kapur
+  position: SPL Executive Director
+  image: tina_kapur.png
+  link: http://www.spl.harvard.edu/pages/People/tkapur
+  g:  0
+
+- name: Guillaume Pernelle
+  position: PhD Student
+  image: guillaume_pernelle2.jpg
+  g: 1
+
+- name: Dr. Andre Mastmeyer
+  position: Research Assistant
+  image: andre_mastmeyer.jpg
+  link: https://de.linkedin.com/in/andre-mastmeyer-642a8693
+  g: 1
+
+- name: Dr. Maria Spadea
+  position: ImagenLab
+  image: maria_spadea.jpg
+  link: http://www.imagenglab.com/newsite/mf_spadea/
+  g: 2
+
+- name: Dr. Paolo Zaffino
+  position: ImagenLab
+  image: paolo_zaffino.jpg
+  link: http://www.imagenglab.com/newsite/paolo_zaffino/
+  g: 2
+
+- name: Salvatore Scaramuzzino
+  position: ImagenLab
+  image: salvatorre_scaramuzzino.jpg
+  link: http://www.imagenglab.com/newsite/salvatore_scaramuzzino/
+  g: 2
+
+
+- name: Ruibin Ma
+  position: Master student
+  image: ruibin_ma.jpg
+  g: 3
+
+- name: Zhongxu Wang
+  position: Master student
+  image: zhongxu_wang.jpg
+  g: 3
+
+- name: Mingyang Li
+  position: Master student
+  image: mingyang_li.jpg
+  g: 3

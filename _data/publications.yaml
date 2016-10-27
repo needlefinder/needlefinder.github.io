@@ -1,0 +1,26 @@
+---
+- title: "Model-based Catheter Segmentation in MRI-images"
+  authors: Andre Mastmeyer, Guillaume Pernelle, Lauren Barber, Steve Pieper, Dirk Fortmeier, Sandy Wells, Heinz Handels, Tina Kapur
+  journal: IMIC 2015
+  link: http://www.imi.uni-luebeck.de/sites/default/files/Fr-W-IMIC-proceedings_Mastmeyer.pdf
+  id: 1
+
+- title: "Validation of catheter segmentation for MR-guided gynecologic cancer brachytherapy."
+  authors: Pernelle, G., Mehrtash, A., Barber, L., Damato, A., Wang, W., Seethamraju, R.T., Schmidt, E., Cormack, R.A., Wells, W., Viswanathan, A. and Kapur, T.
+  journal: International Conference on Medical Image Computing and Computer-Assisted Intervention. Springer Berlin Heidelberg, 2013
+  link: http://link.springer.com/chapter/10.1007/978-3-642-40760-4_48
+  id: 2
+
+- title: "Automated Interstitial Brachytherapy Catheter Localization From Volumetric MR Data"
+  authors: Guillaume Pernelle, Tina Kapur, Alireza Mehrtash, Tobias Penzkofer, Antonio Damato, Lauren Barber, Ehud Schmidt, Akila Viswanathan, Robert Cormack
+  journal: American Association of Physicists in Medicine
+  link: http://scitation.aip.org/content/aapm/journal/medphys/40/6/10.1118/1.4813972
+  id: 3
+
+- title: "Needle Labeling for Interstitial Gynecological Brachytherapy"
+  authors: Akila Viswanathan and Tina Kapur Yi Gao, Nabgha Farhat, Neha Agrawal, Guillaume Pernelle, Xiaojun Chen, Jan Egger, Tyler Blevins, Sylvain Bouix, Allen Tannenbaum, William Wells, Ron Kikinis, Ehud Schmidt
+  journal: 5th NCIGT and NIH Image Guided Therapy Workshop. NCIGT, NAC, Boston
+  link: ""
+  id: 4
+
+

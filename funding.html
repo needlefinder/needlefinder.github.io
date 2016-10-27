@@ -1,0 +1,51 @@
+---
+layout: noimage
+group: navigation
+linkname: funding
+title: Funding - Needlefinder
+pagetitle : Funding
+order: 5
+---
+{% include JB/setup %}
+
+<p>We thank our funding bodies.</p>
+
+<style>
+    .well2 {
+        min-height: 300px;
+        margin-top: 50px;
+
+    }
+    .please-click-index {
+        /*position: absolute;*/
+        /*margin-top: 15px;*/
+        text-align: center;
+        padding: 102px;
+        /*display: inline-block;*/
+        -moz-border-radius: 400px;
+        -webkit-border-radius: 400px;
+        border-radius: 400px;
+        -moz-box-shadow: 0px 0px 2px #888;
+        -webkit-box-shadow: 0px 0px 2px #888;
+        box-shadow: 0px 0px 4px #888;
+        width: 450px;
+        height: 350px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+</style>
+
+<div class ="row vertical-align">
+{% for funding in site.data.fundings %}
+
+
+        <div class="col-xs-12 col-sm-6 text-center fundings well well2">
+            <div class="">
+                <h3 class="funding"><a href="{{funding.link}}">{{ funding.title }}</a></h3>
+                <img class="funding" src="/assets/images/{{ funding.image}}"/>
+            </div>
+        </div>
+
+{% endfor %}
+
+</div>

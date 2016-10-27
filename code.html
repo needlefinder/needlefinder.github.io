@@ -1,0 +1,38 @@
+---
+layout: noimage
+group: navigation
+linkname: code
+title: Code - Needlefinder
+pagetitle : Code
+order: 4
+---
+{% include JB/setup %}
+
+{% for code in site.data.codes %}
+
+    <div class ="row vertical-align">
+    <h3 class="publititle">{{ code.title }}</h3>
+        <div class="col-xs-2 vcenter text-center">
+            <a href="{{ code.link}}" target="_blank"><i class="fa fa-4x fa-code"></i></a>
+            <h6>ModelDB</h6>
+
+            {% if code.linkbrian   %}
+                <a href="{{ code.linkbrian}}" target="_blank"><i class="fa fa-4x fa-code"></i></a>
+                <h6>Brian2</h6>
+            {% endif %}
+        </div>
+        <div class="col-xs-10">
+            {% for id in code.publications %}
+                {% for publi in site.data.publications %}
+                    {% if publi.id == id %}
+                        <h4>{{ publi.title }}</h4>
+                        <h5>{{ publi.authors }}</h5>
+                        <h5>{{ publi.journal }}</h5>
+                        <br>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+    <hr/>
+{% endfor %}

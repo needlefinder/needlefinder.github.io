@@ -1,0 +1,39 @@
+---
+layout: noimage
+group: navigation
+linkname: publications
+title: Publications - NeedleFinder
+pagetitle : Publications
+order: 1
+---
+{% include JB/setup %}
+
+{% for publication in site.data.publications %}
+
+<div class ="row">
+<h3 class="publititle">{{ publication.title }}</h3>
+    <div class="col-md-9">
+        <h4>{{ publication.authors }}</h4>
+
+        {% if publication.link != null %}
+        <a href="{{ publication.link}}" target="_blank"> {{ publication.journal }} </a>
+        {% else %}
+        {{ publication.journal }}
+        {% endif %}
+
+    </div>
+    <div class="col-md-3 text-center">
+        {% if publication.pdf != null %}
+        <br/>
+        <a href="http://needlefinder.org/publications/{{ publication.pdf}}">
+            <i class="fa fa-3x fa-file-pdf-o"></i>
+        </a>
+        {% endif %}
+    </div>
+</div>
+
+
+
+
+<hr/>
+{% endfor %}

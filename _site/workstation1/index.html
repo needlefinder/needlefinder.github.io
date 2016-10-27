@@ -1,0 +1,592 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Workstation1</title>
+    <!--<meta name="robots" content="noindex" />-->
+    
+    <meta name="author" content="A ClopathLab Production">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="http://needlefinder.org/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://needlefinder.org/assets/css/owl.theme.css" rel="stylesheet">
+    <link href="http://needlefinder.org/assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="http://needlefinder.org/assets/css/magnific-popup.css" rel="stylesheet">
+    <link href="http://needlefinder.org/assets/css/simpletextrotator.css" rel="stylesheet">
+    <link href="http://needlefinder.org/assets/css/style.css" rel="stylesheet">
+    <!--<link href="/assets/css/style.css" rel="stylesheet">-->
+    <link href="http://needlefinder.org/assets/css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://needlefinder.org/assets/resources/respond/Respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+<body>
+<div class="wrapper">
+
+    <!-- Navigation start -->
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://needlefinder.org">Clopath Lab</a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    
+                    
+
+
+  
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="http://needlefinder.org/members/">
+      	    
+      	        people
+      	    
+      	    </a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="http://needlefinder.org/publications/">
+      	    
+      	        publications
+      	    
+      	    </a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="http://needlefinder.org/publicationsAPA/">
+      	    
+      	        publications
+      	    
+      	    </a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="http://needlefinder.org/research/">
+      	    
+      	        research
+      	    
+      	    </a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="http://needlefinder.org/hiring/">
+      	    
+      	        job openings
+      	    
+      	    </a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="http://needlefinder.org/code/">
+      	    
+      	        code
+      	    
+      	    </a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="http://needlefinder.org/funding/">
+      	    
+      	        funding
+      	    
+      	    </a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="http://needlefinder.org/contact/">
+      	    
+      	        contact
+      	    
+      	    </a></li>
+      	
+      
+    
+  
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container" id="titlemember">
+        <div class="page-header">
+            <h1>How to use 
+                <small>workstation 1</small>
+                
+            </h1>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                
+<h1 id="how-to-use-cnl-brain1">How to use CNL-Brain1</h1>
+<p><strong>IP address: 155.198.108.197</strong></p>
+
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+<ul>
+  <li><a href="#how-to-use-cnl-brain1">How to use CNL-Brain1</a>
+    <ul>
+      <li><a href="#how-to-connect">How to connect</a>
+        <ul>
+          <li><a href="#via-ssh">Via SSH</a></li>
+          <li><a href="#with-a-remote-desktop">With a remote desktop</a></li>
+          <li><a href="#connect-with-openvpn">Connect with OpenVPN</a>
+            <ul>
+              <li><a href="#macos-x">MacOS X</a></li>
+              <li><a href="#windows">Windows</a></li>
+              <li><a href="#fedora">Fedora</a></li>
+              <li><a href="#generic-linux">Generic Linux</a></li>
+              <li><a href="#ios-and-android">iOS and Android</a></li>
+            </ul>
+          </li>
+          <li><a href="#use-matlab">Use matlab</a></li>
+          <li><a href="#use-ipythonjupyter-notebook">Use iPython/Jupyter notebook</a></li>
+        </ul>
+      </li>
+      <li><a href="#parallel-computing">Parallel Computing</a>
+        <ul>
+          <li><a href="#run-a-script-in-parallel">Run a script in parallel</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#cluster-specs">Cluster specifications</a>
+<!-- /TOC --></li>
+</ul>
+
+<h2 id="how-to-connect">How to connect</h2>
+
+<h3 id="via-ssh">Via SSH</h3>
+<ol>
+  <li>
+    <p>If your are not on imperial network, connect to the VPN (if you have trouble here, see below: connect with OpenVPN.</p>
+  </li>
+  <li>
+    <p>ssh <yourusername>@155.198.108.197</yourusername></p>
+  </li>
+  <li>
+    <p>Use the ‘screen’ function to restore or create a session</p>
+    <ul>
+      <li>to create a session:
+  <code>screen -S &lt;session_name&gt;</code></li>
+    </ul>
+  </li>
+</ol>
+
+<ul>
+  <li>
+    <p>to restore a session: <code>screen -r &lt;session_name&gt;</code></p>
+  </li>
+  <li>
+    <p>to list available sessions: <code>screen -ls</code></p>
+  </li>
+  <li>
+    <p>to detach from a session (which lets you restore it later): <kbd>CTRL</kbd>+<kbd>A</kbd>+<kbd>D</kbd></p>
+  </li>
+  <li>
+    <p>to delete/exit a session: exit</p>
+  </li>
+  <li>
+    <p>Optional: Configure ssh without password
+http://www.thegeekstuff.com/2008/11/3-steps-to-perform-ssh-login-without-password-using-ssh-keygen-ssh-copy-id/</p>
+    <ul>
+      <li><code>ssh-keygen</code>  (without passphrase)</li>
+      <li><code>ssh-copy-id -i ~/.ssh/id_rsa.pub &lt;yourusername&gt;@155.198.108.197</code> (https://github.com/beautifulcode/ssh-copy-id-for-OSX)</li>
+      <li>Then try: <code>ssh &lt;yourusername&gt;@155.198.108.197</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="with-a-remote-desktop">With a remote desktop</h3>
+
+<ul>
+  <li>
+    <p>Install x2goclient:
+http://wiki.x2go.org/doku.php/start</p>
+  </li>
+  <li>
+    <p>Configure a new session like the one below (with your username)</p>
+  </li>
+</ul>
+
+<p><img src="/CNL-Brain1/images/image03.png" alt="alt text" /></p>
+
+<h3 id="connect-with-openvpn">Connect with OpenVPN</h3>
+
+<p>Imperial College is switching to OpenVPN, which may be more reliable that the PPTP VPN that was previously recommended. Check this section if you have troubles connecting with the PPTP VPN.</p>
+
+<h4 id="macos-x">MacOS X</h4>
+
+<ol>
+  <li>
+    <p>Download Tunnelblick from here and install it: https://tunnelblick.net/</p>
+  </li>
+  <li>
+    <p>Download the OpenVPN config from here: https://openvpn.ic.ac.uk/ic.ovpn</p>
+  </li>
+  <li>
+    <p>If Tunnelblick is correctly installed, you should be able to double-click on the config file and connect after entering your username/password. Disconnect using the app window</p>
+  </li>
+</ol>
+
+<h4 id="windows">Windows</h4>
+
+<ol>
+  <li>
+    <p>Download the OpenVPN client from here: https://openvpn.net/index.php/open-source/downloads.html</p>
+  </li>
+  <li>
+    <p>Download the OpenVPN config from here: https://openvpn.ic.ac.uk/ic.ovpn</p>
+  </li>
+  <li>
+    <p>Either:</p>
+  </li>
+</ol>
+
+<ul>
+  <li>
+    <p>place this file in c:\program files\openvpn\config, run “OpenVPN GUI” from the start menu, then right-click the icon on the status bar to connect. Diesconnect using the app window or right-click on the status bar.</p>
+  </li>
+  <li>
+    <p>place this file on the desktop and double-click it, enter your password in the terminal window when prompted. Close the terminal window to disconnect</p>
+  </li>
+</ul>
+
+<h4 id="fedora">Fedora</h4>
+<p>Fedora Linux with Gnome 3/NetworkManager - doesn’t allow use of OpenVPN profiles for some reason</p>
+
+<ol>
+  <li>
+    <p>Ensure the openvpn client is installed with your system package manager</p>
+  </li>
+  <li>
+    <p>Go to Activities at the top-right and type “Network”, selecting “Network - control how you connect to the internet”</p>
+  </li>
+  <li>
+    <p>Hit the + icon to add a connection, and select VPN, OpenVPN</p>
+  </li>
+  <li>
+    <p>Use the following settings:</p>
+  </li>
+</ol>
+
+<ul>
+  <li>
+    <p>gateway: openvpn.ic.ac.uk</p>
+  </li>
+  <li>
+    <p>authentication: password</p>
+  </li>
+  <li>
+    <p>CA certificate: download and select this file: https://openvpn.ic.ac.uk/icov.pem</p>
+  </li>
+  <li>
+    <p>Ensure “Routes - automatic” is set under IPv4</p>
+  </li>
+</ul>
+
+<ol>
+  <li>Connect to and disconnect from the VPN using the NetworkManager GUI</li>
+</ol>
+
+<h4 id="generic-linux">Generic Linux</h4>
+
+<ol>
+  <li>
+    <p>Ensure the openvpn client is installed with your system package manager</p>
+  </li>
+  <li>
+    <p>Download the OpenVPN config from here: https://openvpn.ic.ac.uk/ic.ovpn</p>
+  </li>
+  <li>
+    <p>Open a terminal window</p>
+  </li>
+  <li>
+    <p>Run “openvpn ic.ovpn” where the 2nd argument is the path/file you downloaded in step 2</p>
+  </li>
+  <li>
+    <p>Disconnect by killing the command at the terminal, by hitting ctrl+c</p>
+  </li>
+</ol>
+
+<h4 id="ios-and-android">iOS and Android</h4>
+
+<ol>
+  <li>Downlaod the OpenVPN connect app from:</li>
+</ol>
+
+<ul>
+  <li>
+    <p>iOS - itunes: https://itunes.apple.com/gb/app/openvpn-connect/id590379981?mt=8</p>
+  </li>
+  <li>
+    <p>Android - Google Play store: https://play.google.com/store/apps/details?id=net.openvpn.openvpn&amp;hl=en_GB</p>
+  </li>
+</ul>
+
+<ol>
+  <li>
+    <p>Download the OpenVPN config from here: https://openvpn.ic.ac.uk/ic.ovpn</p>
+  </li>
+  <li>
+    <p>Open the OpenVPN connect app and import the config file</p>
+  </li>
+  <li>
+    <p>Connect using the on-screen prompts</p>
+  </li>
+</ol>
+
+<h3 id="use-matlab">Use matlab</h3>
+
+<ol>
+  <li>
+    <p>Go on the matworks website to create a new license file: <a href="https://uk.mathworks.com/licensecenter?s_tid=mwa_com_vwlc_cta2">mathworks</a></p>
+  </li>
+  <li>
+    <p>Click activate
+<img src="/CNL-Brain1/images/image02.png" alt="alt text" /></p>
+  </li>
+  <li>
+    <p>Enter this host ID: <code>DC4A3E655430</code></p>
+  </li>
+  <li>
+    <p>Enter the same username as the one you use to login to the computer
+<img src="/CNL-Brain1/images/image01.png" alt="alt text" /></p>
+  </li>
+  <li>
+    <p>Download the license file
+<img src="/CNL-Brain1/images/image01.png" alt="alt text" /></p>
+  </li>
+  <li>
+    <p>ssh into the computer</p>
+  </li>
+  <li>
+    <p>Create a folder name R2016a_licenses in the .matlab folder:
+<code>mkdir ~/.matlab/R2016a_licenses</code></p>
+  </li>
+  <li>
+    <p>copy the file into the folder ~/.matlab/R2016a_licenses/
+For example:
+<code>scp ~/Downloads/license.lic &lt;yourusername&gt;@155.198.108.197:~/.matlab/R2016a_licenses/</code></p>
+  </li>
+  <li>
+    <p>That should work!</p>
+  </li>
+</ol>
+
+<h3 id="use-ipythonjupyter-notebook">Use iPython/Jupyter notebook</h3>
+
+<p>You can tunnel the ipython notebook to your local machine:</p>
+
+<ul>
+  <li>
+    <p>set up the ssh tunnel:</p>
+
+    <p><code>ipython notebook --no-browser --port=1234</code></p>
+  </li>
+  <li>
+    <p>locally, run:</p>
+
+    <p><code>ssh -N -f -L localhost:1111:localhost:1234 remote_user@remote_host</code></p>
+
+    <p>(replace with your usnername and the server address)</p>
+  </li>
+</ul>
+
+<p>Now, you can open your browser at http://localhost:1111 and run your code as if it were on the local machine.</p>
+
+<h2 id="parallel-computing">Parallel Computing</h2>
+
+<h3 id="run-a-script-in-parallel">Run a script in parallel</h3>
+
+<p>Run a script in parallel
+Create a script file called for example script.sh.
+Make the file executable :  chmod +x script.sh</p>
+
+<p>An example of a script file:</p>
+
+<p>```
+#!/bin/bash</p>
+
+<p>printf ‘=%.0s’ {1..100}
+print ‘Begin the simulation’
+printf ‘=%.0s’ {1..100}</p>
+
+<p>thr=20
+trap “exit” INT
+parallel –bar -j $thr –header : ./cortex -N 100 -ext _0.txt -d1 10 -d2 30000 -d3 10 -before 10 -after 30000 -S 100 -G 10 \
+        -s 60 -WII 1100 -LTP 0.0282 -LTD 0.00188 -model gp-izh-subnetworks \
+        -r 0 -global 0 -sG {SG} -sWII {WII} -tauv {TAUV}\
+         ::: TAUV <code>seq 15 2 95</code> ::: SG <code>seq 0 2 30</code> ::: WII 10 50 0</p>
+
+<p>printf ‘=%.0s’ {1..100}
+echo ‘Done!’
+printf ‘=%.0s’ {1..100}</p>
+
+<p>exit 0
+```</p>
+
+<p>It uses the GNU parallel function on 20 cores. Replace thr=20 by thr=+0 if you want to use all the cores. Use ‘htop’ to view the CPU usage.</p>
+
+<p>When running the script, you can use the ‘nice’ function to set the priority (goes from -20 (highest priority) to 19 (lowest priority) )
+For ex:
+<code>
+nice -10 ./script.sh
+</code></p>
+
+<p>(it will set the priority to 10, to set to -10, use –10 instead)</p>
+
+<p>Run a matlab function from a unix shell:
+<code>
+matlab -nodisplay -nodesktop -nojvm -nosplash -r  "try double2(2); catch; end; quit"
+</code></p>
+
+<h1 id="cluster-specs">Cluster specs</h1>
+
+<ul>
+  <li>CPU 1: Intel Xeon E5-2680v4 2.4 2400 14C</li>
+  <li>CPU 2: Intel Xeon E5-2680v4 2.4 2400 14C</li>
+  <li>System Memory: 256GB DDR4-2400 (8x32GB)</li>
+  <li>GPU 1: NVIDIA Quadro K420 2GB DL-DVI(I)</li>
+  <li>GPU 2: NVIDIA Titan X 12GB</li>
+</ul>
+
+            </div>
+        </div>
+        <footer>
+    <hr/>
+    <p>
+        &copy; 2016 A ClopathLab Production
+
+    </p>
+</footer>
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+    var sc_project=7024779;
+    var sc_invisible=1;
+    var sc_security="aaa54025";
+    </script>
+<script type="text/javascript"
+    src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="joomla
+    analytics" href="http://statcounter.com/joomla/"
+    target="_blank"><img class="statcounter"
+        src="http://c.statcounter.com/7024779/0/aaa54025/1/"
+        alt="joomla analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+
+
+<script src="http://needlefinder.org/assets/js/jquery.min.js"></script>
+<script src="http://needlefinder.org/assets/js/bootstrap.min.js"></script>
+<!-- Background slider -->
+<script src="http://needlefinder.org/assets/js/jquery.backstretch.min.js"></script>
+<!-- OwlCarousel -->
+<script src="http://needlefinder.org/assets/js/owl.carousel.min.js"></script>
+<!-- Modal for portfolio -->
+<script src="http://needlefinder.org/assets/js/jquery.magnific-popup.min.js"></script>
+<!-- Text rotator -->
+<script src="http://needlefinder.org/assets/js/jquery.simple-text-rotator.min.js"></script>
+<!-- Waypoints -->
+<script src="http://needlefinder.org/assets/js/jquery.waypoints.js"></script>
+<!-- CountTo  -->
+<script src="http://needlefinder.org/assets/js/jquery.countTo.js"></script>
+<!-- WOW - Reveal Animations When You Scroll -->
+<script src="http://needlefinder.org/assets/js/wow.min.js"></script>
+<!-- Smooth scroll -->
+<script src="http://needlefinder.org/assets/js/smoothscroll.js"></script>
+<!-- Fitvids -->
+<script src="http://needlefinder.org/assets/js/jquery.fitvids.js"></script>
+<!-- Custom scripts -->
+<script src="http://needlefinder.org/assets/js/custom.js"></script>
+
+    </div>
+
+    
+
+
+</div>
+</body>
+</html>
+
