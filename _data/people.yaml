@@ -34,12 +34,6 @@
   link: http://www.imagenglab.com/newsite/salvatore_scaramuzzino/
   g: 2
 
-
-- name: Ruibin Ma
-  position: Master student
-  image: ruibin_ma.jpg
-  g: 3
-
 - name: Zhongxu Wang
   position: Master student
   image: zhongxu.jpg
@@ -48,5 +42,49 @@
 
 - name: Mingyang Li
   position: Master student
-  image: mingyang_li.jpg
+  image: mingyang.jpg
+  link: mingyang
   g: 3
+
+- name: Ruibin Ma
+  position: Master student
+  image: ruibin_ma.jpg
+  g: 3
+
+- name: Alireza Mehrtash
+  position: PhD Student
+  link: http://www.spl.harvard.edu/pages/People/mehrtash
+  g: 4
+
+- name: Alireza Zaieyi Torbati
+  position: MD
+  g: 4
+
+- name: Lauren Barber
+  position: Medical Student at Harvard Medical School
+  g: 4
+
+- name: Neha Agrawal
+  position: MD, 3rd year resident in Radiology
+  g: 4
+
+- name: Nabgha Farhat
+  position: Medical Student at Rutgers Robert Wood Johnson Medical School
+  link:
+  g: 4
+
+- name: Sandy Well
+  link: http://people.csail.mit.edu/sw/
+  g: 4
+
+- name: Jayender Jagadeesan
+  link: http://scholar.harvard.edu/jayender/home
+  g: 4
+
+- name: Andrey Fedorov
+  link: http://www.spl.harvard.edu/pages/People/fedorov
+  g: 4
+
+- name: Steve Pieper
+  link: http://www.spl.harvard.edu/pages/People/pieper
+  g: 4

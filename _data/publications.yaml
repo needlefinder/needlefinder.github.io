@@ -1,26 +1,38 @@
 ---
 - title: "Model-based Catheter Segmentation in MRI-images"
-  authors: Andre Mastmeyer, Guillaume Pernelle, Lauren Barber, Steve Pieper, Dirk Fortmeier, Sandy Wells, Heinz Handels, Tina Kapur
+  authors: Mastmeyer A, Pernelle G, Barber L, Pieper S, Fortmeier D, Wells S, Handels H, Kapur T
   journal: IMIC 2015
   link: http://www.imi.uni-luebeck.de/sites/default/files/Fr-W-IMIC-proceedings_Mastmeyer.pdf
   id: 1
 
-- title: "Validation of catheter segmentation for MR-guided gynecologic cancer brachytherapy."
-  authors: Pernelle, G., Mehrtash, A., Barber, L., Damato, A., Wang, W., Seethamraju, R.T., Schmidt, E., Cormack, R.A., Wells, W., Viswanathan, A. and Kapur, T.
-  journal: International Conference on Medical Image Computing and Computer-Assisted Intervention. Springer Berlin Heidelberg, 2013
-  link: http://link.springer.com/chapter/10.1007/978-3-642-40760-4_48
+- title: "EM-Navigated Catheter Placement for Gynecologic Brachytherapy: An Accuracy Study"
+  authors: Mehrtash A, Damato A, Pernelle G, Barber L, Farhat N, Viswanathan A, Cormack R, Kapur T
+  journal: SPIE Medical Imaging
+  link: http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=1849115
   id: 2
 
-- title: "Automated Interstitial Brachytherapy Catheter Localization From Volumetric MR Data"
-  authors: Guillaume Pernelle, Tina Kapur, Alireza Mehrtash, Tobias Penzkofer, Antonio Damato, Lauren Barber, Ehud Schmidt, Akila Viswanathan, Robert Cormack
-  journal: American Association of Physicists in Medicine
-  link: http://scitation.aip.org/content/aapm/journal/medphys/40/6/10.1118/1.4813972
+- title: "Validation of catheter segmentation for MR-guided gynecologic cancer brachytherapy."
+  authors: Pernelle G, Mehrtash A, Barber L, Damato A, Wang W, Seethamraju RT, Schmidt E, Cormack RA, Wells W, Viswanathan A, Kapur T
+  journal: International Conference on Medical Image Computing and Computer-Assisted Intervention. Springer Berlin Heidelberg, 2013
+  link: http://link.springer.com/chapter/10.1007/978-3-642-40760-4_48
   id: 3
 
+- title: "Labeled Needle Rendering Solution for Image Guided Brachytherapy."
+  authors: Pernelle G
+  journal: Master Thesis, Technische Universität, München, Germany, 2012 Dec
+  link: http://www.spl.harvard.edu/publications/item/view/2316
+  id: 4
+
+- title: "Automated Interstitial Brachytherapy Catheter Localization From Volumetric MR Data"
+  authors: Pernelle G, Kapur T, Mehrtash A, Penzkofer T, Damato A, Barber L, Schmidt E, Viswanathan A, Cormack R
+  journal: American Association of Physicists in Medicine
+  link: http://scitation.aip.org/content/aapm/journal/medphys/40/6/10.1118/1.4813972
+  id: 5
+
 - title: "Needle Labeling for Interstitial Gynecological Brachytherapy"
-  authors: Akila Viswanathan and Tina Kapur Yi Gao, Nabgha Farhat, Neha Agrawal, Guillaume Pernelle, Xiaojun Chen, Jan Egger, Tyler Blevins, Sylvain Bouix, Allen Tannenbaum, William Wells, Ron Kikinis, Ehud Schmidt
+  authors: Gao Y, Farhat N, Agrawal N, Pernelle G, Chen X, Egger J, Blevins T, Bouix S, Tannenbaum A, Wells W, Kikinis R, Schmidt E, Viswanathan A and Kapur T
   journal: 5th NCIGT and NIH Image Guided Therapy Workshop. NCIGT, NAC, Boston
   link: ""
-  id: 4
+  id: 6
 
 

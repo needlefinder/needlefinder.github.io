@@ -79,7 +79,7 @@ order: 0
 </div>
 
 <div class="row people">
-    <h2>Fomer Master students</h2>
+    <h2>Former Undergraduate Students</h2>
     {% for people in site.data.people %}
 
     {% if people.g == 3 %}
@@ -99,4 +99,41 @@ order: 0
     {% endif %}
 
     {% endfor %}
+</div>
+
+
+<li class="row people">
+    <h2>Other Contributors</h2>
+    <!--<li>Alireza Mehrtash, PhD Student</li>-->
+    <!--<li>Alireza Zaieyi Torbati, MD</li>-->
+    <!--<li>Lauren Barber, Medical Student at Harvard Medical School</li>-->
+    <!--<li>Neha Agrawal, MD, 3rd year resident in Radiology</li>-->
+    <!--<li>Nabgha Farhat, Medical Student at Rutgers Robert Wood Johnson Medical School</li>-->
+
+    <!--<li>Sandy Well</li>-->
+    <!--<li>Jayender Jagadeesan</li>-->
+    <!--<li>Andrey Fedorov</li>-->
+    <!--<li>Steve Pieper</li>-->
+
+
+    {% for people in site.data.people %}
+
+    {% if people.g == 4 %}
+    <li>
+        {% if people.link != null %}
+        <a href="{{ people.link}}">{{people.name}}</a>
+        {% else %}
+        {{people.name}}, {{people.position}}
+        {% endif %}
+        {% if people.position != null %}
+        , {{people.position}}
+        {% endif %}
+
+    </li>
+    {% endif %}
+
+    {% endfor %}
+
+
+
 </div>
