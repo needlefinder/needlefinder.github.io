@@ -16,7 +16,7 @@ Don't forget to modify the METADATA at the top of the page, for example:
     layout: noimage
     group: navigation
     linkname: contact
-    title: Contact Us - Computational Neuroscience Laboratory, London, UK
+    title: Contact Us - Needlefinder
     pagetitle: Contact Us
     ---
     
@@ -33,10 +33,10 @@ You can create a new one if you like
 - Give it a name such as firstname_lastname.html
 - Edit the _data/people.yaml file and add the linkname of your page
 
-    - name: Tina Kapur 
-      position: Team leader 
-      image: tina.jpg
-      link: tina_kapur
+    - name: Guillaume Pernelle
+      position: PhD student 
+      image: guillaume_pernelle.jpg
+      link: guillaume_pernelle
       
 - it's done. Check locally if that works <http://localhost:4001/members/firstname_lastname>
 
