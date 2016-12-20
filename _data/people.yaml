@@ -8,6 +8,7 @@
 - name: Guillaume Pernelle
   position: PhD Student
   image: guillaume_pernelle2.jpg
+  link: http://www.imperial.ac.uk/people/g.pernelle14
   g: 1
 
 - name: Dr. Andre Mastmeyer
@@ -48,43 +49,62 @@
 
 - name: Ruibin Ma
   position: Master student
-  image: ruibin_ma.jpg
+  image: johndoe.png
   g: 3
 
 - name: Alireza Mehrtash
   position: PhD Student
   link: http://www.spl.harvard.edu/pages/People/mehrtash
   g: 4
+  index: 1
 
 - name: Alireza Zaieyi Torbati
-  position: MD
+  position: MD, research Fellow
   g: 4
+  index: 2
 
 - name: Lauren Barber
-  position: Medical Student at Harvard Medical School
+  position: 4th year Medical Student
   g: 4
+  index: 3
 
 - name: Neha Agrawal
-  position: MD, 3rd year resident in Radiology
+  position: MD, PG Y3 Radiology Resident
   g: 4
+  index: 4
 
 - name: Nabgha Farhat
-  position: Medical Student at Rutgers Robert Wood Johnson Medical School
-  link:
+  position: 3rd year Medical Student
   g: 4
+  index: 5
 
 - name: Sandy Well
+  position: PhD
   link: http://people.csail.mit.edu/sw/
   g: 4
+  index: 6
 
 - name: Jayender Jagadeesan
+  position: PhD
   link: http://scholar.harvard.edu/jayender/home
   g: 4
+  index: 7
 
 - name: Andrey Fedorov
+  position: PhD
   link: http://www.spl.harvard.edu/pages/People/fedorov
   g: 4
+  index: 8
 
 - name: Steve Pieper
   link: http://www.spl.harvard.edu/pages/People/pieper
   g: 4
+  index: 9
+  position: PhD
+
+- name: Ron Kikinis
+  link: http://www.spl.harvard.edu/pages/People/kikinis
+  g: 4
+  index: 10
+  position: PhD
+

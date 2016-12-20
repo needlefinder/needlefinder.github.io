@@ -10,6 +10,7 @@ http://needlefinder.org//members/mingyang/
 http://needlefinder.org//publications/
 http://needlefinder.org//rss.xml
 http://needlefinder.org//sitemap.txt
+http://needlefinder.org//tutorial/
 http://needlefinder.org//members/zhongxu/
 
 http://needlefinder.org//lessons/2011/12/29/jekyll-introduction/

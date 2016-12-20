@@ -102,7 +102,7 @@ order: 0
 </div>
 
 
-<li class="row people">
+<div class="row people">
     <h2>Other Contributors</h2>
     <!--<li>Alireza Mehrtash, PhD Student</li>-->
     <!--<li>Alireza Zaieyi Torbati, MD</li>-->
@@ -114,12 +114,11 @@ order: 0
     <!--<li>Jayender Jagadeesan</li>-->
     <!--<li>Andrey Fedorov</li>-->
     <!--<li>Steve Pieper</li>-->
-
-
+    <ul class="people">
     {% for people in site.data.people %}
 
     {% if people.g == 4 %}
-    <li>
+    <li>{{ people.index }}.
         {% if people.link != null %}
         <a href="{{ people.link}}">{{people.name}}</a>
         {% else %}
@@ -133,7 +132,6 @@ order: 0
     {% endif %}
 
     {% endfor %}
-
-
+    </ul>
 
 </div>
