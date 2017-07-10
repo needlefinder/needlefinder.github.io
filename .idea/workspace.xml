@@ -3,23 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bb28037b-077b-402e-9b70-1b1e96c77313" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/codes.yaml" afterPath="$PROJECT_DIR$/_data/codes.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/people.yaml" afterPath="$PROJECT_DIR$/_data/people.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/publications.yaml" afterPath="$PROJECT_DIR$/_data/publications.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/code/index.html" afterPath="$PROJECT_DIR$/_site/code/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/contact/index.html" afterPath="$PROJECT_DIR$/_site/contact/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/funding/index.html" afterPath="$PROJECT_DIR$/_site/funding/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/hiring/index.html" afterPath="$PROJECT_DIR$/_site/hiring/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/lessons/2011/12/29/jekyll-introduction/index.html" afterPath="$PROJECT_DIR$/_site/lessons/2011/12/29/jekyll-introduction/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/members/index.html" afterPath="$PROJECT_DIR$/_site/members/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/members/mingyang/index.html" afterPath="$PROJECT_DIR$/_site/members/mingyang/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/members/zhongxu/index.html" afterPath="$PROJECT_DIR$/_site/members/zhongxu/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/publications/index.html" afterPath="$PROJECT_DIR$/_site/publications/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/rss.xml" afterPath="$PROJECT_DIR$/_site/rss.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tutorial/index.html" afterPath="$PROJECT_DIR$/_site/tutorial/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code.html" afterPath="$PROJECT_DIR$/code.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/members/index.html" afterPath="$PROJECT_DIR$/members/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/members/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1290">
-              <caret line="86" column="36" lean-forward="false" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
+            <state relative-caret-position="555">
+              <caret line="93" column="16" lean-forward="false" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -60,8 +48,8 @@
       <file leaf-file-name="people.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_data/people.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            <state relative-caret-position="719">
+              <caret line="119" column="11" lean-forward="false" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -96,10 +84,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/members/index.html" />
         <option value="$PROJECT_DIR$/code.html" />
         <option value="$PROJECT_DIR$/_data/publications.yaml" />
         <option value="$PROJECT_DIR$/_data/codes.yaml" />
+        <option value="$PROJECT_DIR$/members/index.html" />
         <option value="$PROJECT_DIR$/_data/people.yaml" />
       </list>
     </option>
@@ -225,12 +213,12 @@
       <option name="presentableId" value="Default" />
       <updated>1482251533738</updated>
       <workItem from="1482251535005" duration="1562000" />
-      <workItem from="1499710507833" duration="774000" />
+      <workItem from="1499710507833" duration="1939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2336000" />
+    <option name="totallyTimeSpent" value="3501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="87" y="23" width="1606" height="998" extended-state="0" />
@@ -297,18 +285,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/members/index.html">
+    <entry file="file://$PROJECT_DIR$/_data/codes.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="86" column="36" lean-forward="false" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="150">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -321,18 +301,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_data/codes.yaml">
+    <entry file="file://$PROJECT_DIR$/code.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="240">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/members/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="93" column="16" lean-forward="false" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_data/people.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        <state relative-caret-position="719">
+          <caret line="119" column="11" lean-forward="false" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="11" />
           <folding />
         </state>
       </provider>

@@ -15,12 +15,16 @@ order: 0
 
             {% if people.g == 0 %}
                 <div class="col-md-3 text-center box">
-                    {% if people.link != null %}
+                    {% if people.github_image != null %}
+                        <a href="{{ people.link}}"><img src="{{people.github_image}}" class="img-circle"></a>
+                        <a href="{{ people.link}}"><h4>{{people.name}}</h4></a>
+                    {% else if people.link != null %}
                         <a href="{{ people.link}}"><img src="../assets/images/{{people.image}}" class="img-circle"></a>
                         <a href="{{ people.link}}"><h4>{{people.name}}</h4></a>
                     {% else if people.linkperso != null %}
                         <a href="{{ people.linkperso}}"><img src="../assets/images/{{people.image}}" class="img-circle"></a>
                         <a href="{{ people.linkperso}}"><h4>{{people.name}}</h4></a>
+
                     {% else %}
                         <img src="../assets/images/{{people.image}}" class="img-circle">
                         <h4>{{people.name}}</h4>
@@ -84,7 +88,10 @@ order: 0
 
     {% if people.g == 3 %}
     <div class="col-md-3 text-center box">
-        {% if people.link != null %}
+        {% if people.github_image != null %}
+        <a href="{{ people.link}}"><img src="{{people.github_image}}" class="img-circle"></a>
+        <a href="{{ people.link}}"><h4>{{people.name}}</h4></a>
+        {% else if people.link != null %}
         <a href="{{ people.link}}"><img src="../assets/images/{{people.image}}" class="img-circle"></a>
         <a href="{{ people.link}}"><h4>{{people.name}}</h4></a>
         {% else if people.linkperso != null %}
