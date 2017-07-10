@@ -1,4 +1,9 @@
 ---
+- title: "Accurate Model-based Segmentation of Gynecologic Brachytherapy Catheter Collections in MRI-images"
+  authors: Mastmeyer A, Pernelle G, Ruibin M, Barber L, Kapur T
+  journal: Medical Image Analysis
+  id: 0
+
 - title: "Model-based Catheter Segmentation in MRI-images"
   authors: Mastmeyer A, Pernelle G, Barber L, Pieper S, Fortmeier D, Wells S, Handels H, Kapur T
   journal: IMIC 2015

@@ -1,10 +1,13 @@
 ---
-- title: NeedleFinder
+- title: Accurate Model-based Segmentation of Gynecologic Brachytherapy Catheter Collections in MRI-images
+  hosting: github
+  link: https://github.com/needlefinder/NeedleFinder/tree/34c4b18d2e65a3f33a392d3474be97b19b958557
+  publications: [0]
+
+
+- title: NeedleFinder 3D Slicer extension
   hosting: github
   link: https://github.com/needlefinder/NeedleFinder
   publications: [1]
 
-- title: Needle Tip detection
-  hosting: github
-  link: https://github.com/needlefinder/needle_tip_detection
 

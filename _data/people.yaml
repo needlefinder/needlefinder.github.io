@@ -35,20 +35,26 @@
   link: http://www.imagenglab.com/newsite/salvatore_scaramuzzino/
   g: 2
 
+- name: Ziyang Wang
+  position: Bachelor student
+  image: johndoe.png
+  link: https://github.com/CoolZiyang
+  g: 3
+
 - name: Zhongxu Wang
-  position: Master student
+  position: Bachelor student
   image: zhongxu.jpg
   link: zhongxu
   g: 3
 
 - name: Mingyang Li
-  position: Master student
+  position: Bachelor student
   image: mingyang.jpg
   link: mingyang
   g: 3
 
 - name: Ruibin Ma
-  position: Master student
+  position: Bachelor student
   image: johndoe.png
   g: 3
 
