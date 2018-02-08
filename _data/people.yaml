@@ -3,7 +3,7 @@
   position: SPL Executive Director
   image: tina_kapur_2.png
   link: http://www.spl.harvard.edu/pages/People/tkapur
-  g:  0
+  g:  1
 
 - name: Guillaume Pernelle
   position: PhD Student
@@ -17,24 +17,22 @@
   link: http://www.imagenglab.com/newsite/paolo_zaffino/
   g: 1
 
-- name: Dr. Andre Mastmeyer
-  position: Research Assistant
-  image: andre_mastmeyer.jpg
-  link: https://de.linkedin.com/in/andre-mastmeyer-642a8693
-  g: 1
-
 - name: Dr. Maria Spadea
   position: ImagEngLab
   image: maria_spadea.jpg
   link: http://www.imagenglab.com/newsite/mf_spadea/
   g: 1
 
-
-
 - name: Alireza Mehrtash
   position: PhD Student
   link: http://www.spl.harvard.edu/pages/People/mehrtash
   image: alireza.jpeg
+  g: 1
+
+- name: Dr. Andre Mastmeyer
+  position: Research Assistant
+  image: andre_mastmeyer.jpg
+  link: https://de.linkedin.com/in/andre-mastmeyer-642a8693
   g: 1
 
 #- name: Ziyang Wang
