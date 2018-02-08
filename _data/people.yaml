@@ -53,72 +53,63 @@
 #  link: mingyang
 #  g: 3
 
-- name: Ruibin Ma
-  position: Bachelor student
-  image: johndoe.png
-  g: 4
-  index: 1
 
-- name: Salvatore Scaramuzzino
-  position: ImagEngLab
-  image: salvatorre_scaramuzzino.jpg
-  link: http://www.imagenglab.com/newsite/salvatore_scaramuzzino/
-  g: 4
-  index: 2
+
 
 - name: Alireza Zaieyi Torbati
-  position: MD, research Fellow
+  position: MD
   g: 4
-  index: 3
+  index: 1
 
 - name: Mohsen Ghafoorian
   position: PhD
   link: http://mohsenghafoorian.nl/
   g: 4
+  index: 2
+
+- name: Salvatore Scaramuzzino
+  position: PhD
+  image: salvatorre_scaramuzzino.jpg
+  link: http://www.imagenglab.com/newsite/salvatore_scaramuzzino/
+  g: 4
+  index: 3
+
+- name: Ruibin Ma
+  position: PhD student
+  image: johndoe.png
+  g: 4
   index: 4
 
 - name: Lauren Barber
-  position: 4th year Medical Student
+  position: MD
   g: 4
   index: 5
 
 - name: Neha Agrawal
-  position: MD, PG Y3 Radiology Resident
+  position: MD
   g: 4
   index: 6
 
 - name: Nabgha Farhat
-  position: 3rd year Medical Student
+  position: MD Student
   g: 4
   index: 7
 
-- name: Sandy Well
+- name: Williams Well
   position: PhD
   link: http://people.csail.mit.edu/sw/
   g: 4
   index: 8
 
-- name: Jayender Jagadeesan
-  position: PhD
-  link: http://scholar.harvard.edu/jayender/home
-  g: 4
-  index: 9
-
-- name: Andrey Fedorov
-  position: PhD
-  link: http://www.spl.harvard.edu/pages/People/fedorov
-  g: 4
-  index: 10
-
 - name: Steve Pieper
   link: http://www.spl.harvard.edu/pages/People/pieper
   g: 4
-  index: 11
+  index: 9
   position: PhD
 
 - name: Ron Kikinis
   link: http://www.spl.harvard.edu/pages/People/kikinis
   g: 4
-  index: 12
+  index: 10
   position: PhD
 
