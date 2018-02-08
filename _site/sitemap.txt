@@ -4,8 +4,8 @@ http://needlefinder.org//code/
 http://needlefinder.org//contact/
 http://needlefinder.org//funding/
 http://needlefinder.org//hiring/
-http://needlefinder.org//members/
 http://needlefinder.org//
+http://needlefinder.org//members/
 http://needlefinder.org//members/mingyang/
 http://needlefinder.org//publications/
 http://needlefinder.org//rss.xml

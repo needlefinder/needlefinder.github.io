@@ -59,54 +59,54 @@ order: 0
     {% endfor %}
 </div>
 
-<div class="row people">
-    <h2>ImagEngLab Contributors</h2>
-    {% for people in site.data.people %}
+<!--<div class="row people">-->
+    <!--<h2>ImagEngLab Contributors</h2>-->
+    <!--{% for people in site.data.people %}-->
 
-    {% if people.g == 2 %}
-    <div class="col-md-3 text-center box">
-        {% if people.link != null %}
-        <a href="{{ people.link}}"><img src="../assets/images/{{people.image}}" class="img-circle"></a>
-        <a href="{{ people.link}}"><h4>{{people.name}}</h4></a>
-        {% else if people.linkperso != null %}
-        <a href="{{ people.linkperso}}"><img src="../assets/images/{{people.image}}" class="img-circle"></a>
-        <a href="{{ people.linkperso}}"><h4>{{people.name}}</h4></a>
-        {% else %}
-        <img src="../assets/images/{{people.image}}" class="img-circle">
-        <h4>{{people.name}}</h4>
-        {% endif %}
-        <h5>{{people.position}}</h5>
-    </div>
-    {% endif %}
+    <!--{% if people.g == 2 %}-->
+    <!--<div class="col-md-3 text-center box">-->
+        <!--{% if people.link != null %}-->
+        <!--<a href="{{ people.link}}"><img src="../assets/images/{{people.image}}" class="img-circle"></a>-->
+        <!--<a href="{{ people.link}}"><h4>{{people.name}}</h4></a>-->
+        <!--{% else if people.linkperso != null %}-->
+        <!--<a href="{{ people.linkperso}}"><img src="../assets/images/{{people.image}}" class="img-circle"></a>-->
+        <!--<a href="{{ people.linkperso}}"><h4>{{people.name}}</h4></a>-->
+        <!--{% else %}-->
+        <!--<img src="../assets/images/{{people.image}}" class="img-circle">-->
+        <!--<h4>{{people.name}}</h4>-->
+        <!--{% endif %}-->
+        <!--<h5>{{people.position}}</h5>-->
+    <!--</div>-->
+    <!--{% endif %}-->
 
-    {% endfor %}
-</div>
+    <!--{% endfor %}-->
+<!--</div>-->
 
-<div class="row people">
-    <h2>Former Undergraduate Students</h2>
-    {% for people in site.data.people %}
+<!--<div class="row people">-->
+    <!--<h2>Former Undergraduate Students</h2>-->
+    <!--{% for people in site.data.people %}-->
 
-    {% if people.g == 3 %}
-    <div class="col-md-3 text-center box">
-        {% if people.github_image != null %}
-        <a href="{{ people.link}}"><img src="{{people.github_image}}" class="img-circle"></a>
-        <a href="{{ people.link}}"><h4>{{people.name}}</h4></a>
-        {% else if people.link != null %}
-        <a href="{{ people.link}}"><img src="../assets/images/{{people.image}}" class="img-circle"></a>
-        <a href="{{ people.link}}"><h4>{{people.name}}</h4></a>
-        {% else if people.linkperso != null %}
-        <a href="{{ people.linkperso}}"><img src="../assets/images/{{people.image}}" class="img-circle"></a>
-        <a href="{{ people.linkperso}}"><h4>{{people.name}}</h4></a>
-        {% else %}
-        <img src="../assets/images/{{people.image}}" class="img-circle">
-        <h4>{{people.name}}</h4>
-        {% endif %}
-        <h5>{{people.position}}</h5>
-    </div>
-    {% endif %}
+    <!--{% if people.g == 3 %}-->
+    <!--<div class="col-md-3 text-center box">-->
+        <!--{% if people.github_image != null %}-->
+        <!--<a href="{{ people.link}}"><img src="{{people.github_image}}" class="img-circle"></a>-->
+        <!--<a href="{{ people.link}}"><h4>{{people.name}}</h4></a>-->
+        <!--{% else if people.link != null %}-->
+        <!--<a href="{{ people.link}}"><img src="../assets/images/{{people.image}}" class="img-circle"></a>-->
+        <!--<a href="{{ people.link}}"><h4>{{people.name}}</h4></a>-->
+        <!--{% else if people.linkperso != null %}-->
+        <!--<a href="{{ people.linkperso}}"><img src="../assets/images/{{people.image}}" class="img-circle"></a>-->
+        <!--<a href="{{ people.linkperso}}"><h4>{{people.name}}</h4></a>-->
+        <!--{% else %}-->
+        <!--<img src="../assets/images/{{people.image}}" class="img-circle">-->
+        <!--<h4>{{people.name}}</h4>-->
+        <!--{% endif %}-->
+        <!--<h5>{{people.position}}</h5>-->
+    <!--</div>-->
+    <!--{% endif %}-->
 
-    {% endfor %}
-</div>
+    <!--{% endfor %}-->
+<!--</div>-->
 
 
 <div class="row people">
